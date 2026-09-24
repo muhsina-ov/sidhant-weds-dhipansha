@@ -15,8 +15,8 @@ export function Events() {
         <h2 className="font-display text-maroon mt-3 text-3xl sm:text-4xl">
           Wedding Festivities
         </h2>
-        <p className="font-body text-ink/70 mt-2 text-sm">
-          We invite you to grace each occasion with your presence and blessings
+        <p className="font-body text-ink/70 mt-2 text-sm leading-relaxed">
+          We invite you to grace each occasion<br />with your presence and blessings
         </p>
       </Reveal>
 

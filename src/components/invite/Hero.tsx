@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef, useEffect, useState, lazy, Suspense } from "react";
 import { ChevronDown } from "lucide-react";
-const couple = "https://media.invitestory.in/rajwada-royale-alt/src/assets/couple.png";
+const couple = "/images/couple.png";
 const floral = "https://media.invitestory.in/rajwada-royale-alt/src/assets/floral-corner.png";
 const lantern = "https://media.invitestory.in/rajwada-royale-alt/src/assets/lantern.png";
 import { invitation } from "@/config/invitation";
@@ -49,12 +49,12 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-md">
-        <div className="arch-frame relative px-6 pt-14 pb-8 text-center sm:px-10 sm:pt-20">
+        <div className="arch-frame relative px-4 pt-14 pb-8 text-center sm:px-10 sm:pt-20">
           <motion.p
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="font-kicker text-gold text-[0.62rem] tracking-[0.45em] uppercase"
+            className="font-kicker text-gold text-[0.6rem] tracking-[0.2em] sm:text-[0.65rem] sm:tracking-[0.35em] uppercase"
           >
             ॥ श्री गणेशाय नमः ॥ · Wedding Invitation
           </motion.p>
@@ -63,10 +63,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            className="font-script text-maroon mt-4 text-[2.7rem] leading-[1.05] sm:text-6xl"
+            className="font-script text-maroon mt-4 text-[2.15rem] leading-[1.1] sm:text-5xl md:text-6xl"
           >
             {invitation.couple.groom}
-            <span className="font-display text-gold mx-2 text-3xl sm:text-4xl">&</span>
+            <span className="font-display text-gold mx-2 text-2xl sm:text-4xl">&</span>
             {invitation.couple.bride}
           </motion.h1>
 

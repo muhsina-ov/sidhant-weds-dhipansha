@@ -3,13 +3,13 @@
  * To reuse this template for a new couple, edit ONLY this file.
  */
 
-const storyOne = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-1.jpg";
-const storyTwo = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-2.jpg";
+const storyOne = "/images/story-tea.jpg";
+const storyTwo = "/images/story-family.jpg";
 const storyThree = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-3.jpg";
 const galleryOne = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-1.jpg";
 const galleryTwo = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-2.jpg";
-const galleryThree = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-3.jpg";
-const galleryFour = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-4.jpg";
+const galleryThree = "/images/gallery-mandap-night.jpg";
+const galleryFour = "/images/gallery-vintage-car.jpg";
 
 export type InviteEvent = {
   key: string;
@@ -29,11 +29,11 @@ export type InviteEvent = {
 export const invitation = {
   couple: {
     groom: "Siddhant",
-    groomFull: "Siddhant Sharma",
+    groomFull: "Siddhant",
     bride: "Dipansha",
-    brideFull: "Dipansha Grover",
+    brideFull: "Dipansha",
     monogram: "S & D",
-    hashtag: "#SiddhantWedsDipansha",
+    hashtag: "#GroverSharmaGayi",
   },
 
   /** The main wedding muhurat — powers countdown and primary save-the-date */
@@ -51,14 +51,14 @@ export const invitation = {
 
   families: {
     groomSide: {
-      name: "Siddhant Sharma",
+      name: "Siddhant",
       grandparents: "Lt. Smt. Mewa Devi & Lt. Shri J.N. Sharma",
       parents: "Smt. Neeru Sharma & Shri Vijay Sharma",
       relation: "Grandson of Lt. Smt. Mewa Devi & Lt. Shri J.N. Sharma",
       parentRelation: "Son of Smt. Neeru Sharma & Shri Vijay Sharma",
     },
     brideSide: {
-      name: "Dipansha Grover",
+      name: "Dipansha",
       grandparents: "Lt. Smt. Kailash Vati Grover & Lt. Shri Tilak Raj Grover",
       parents: "Smt. Jyoti Grover & Shri Rajeev Grover",
       relation: "Granddaughter of Lt. Smt. Kailash Vati Grover & Lt. Shri Tilak Raj Grover",
@@ -71,15 +71,15 @@ export const invitation = {
 
   story: [
     {
-      year: "2022",
-      title: "When Stars Aligned",
-      text: "Two souls, endless smiles, and the beginning of a beautiful journey together.",
+      year: "2023",
+      title: "Talking Over Tea",
+      text: "Talking over tea one fine day and beginning a beautiful journey together.",
       image: storyOne,
     },
     {
       year: "2025",
-      title: "The Roka Celebration",
-      text: "Two loving families coming together with heartfelt traditions, sweets, and blessings.",
+      title: "Families Come Together",
+      text: "Two loving families coming together with heartfelt traditions, too many sweets, and blessings.",
       image: storyTwo,
     },
     {

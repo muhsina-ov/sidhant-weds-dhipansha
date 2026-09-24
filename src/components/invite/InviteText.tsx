@@ -22,7 +22,7 @@ export function InviteText() {
           <p className="font-kicker text-gold text-[0.68rem] tracking-[0.3em] uppercase">Groom</p>
           <h3 className="font-script text-maroon text-4xl sm:text-5xl mt-1">{families.groomSide.name}</h3>
           <p className="font-body text-ink/80 text-sm sm:text-base mt-2">{families.groomSide.parentRelation}</p>
-          <p className="font-body text-ink/60 text-xs sm:text-sm italic">{families.groomSide.relation}</p>
+          <p className="font-body text-ink/60 text-xs sm:text-sm italic max-w-sm sm:max-w-md mx-auto leading-relaxed px-2">{families.groomSide.relation}</p>
         </div>
 
         <div className="my-6 flex items-center justify-center gap-3">
@@ -36,7 +36,7 @@ export function InviteText() {
           <p className="font-kicker text-gold text-[0.68rem] tracking-[0.3em] uppercase">Bride</p>
           <h3 className="font-script text-maroon text-4xl sm:text-5xl mt-1">{families.brideSide.name}</h3>
           <p className="font-body text-ink/80 text-sm sm:text-base mt-2">{families.brideSide.parentRelation}</p>
-          <p className="font-body text-ink/60 text-xs sm:text-sm italic">{families.brideSide.relation}</p>
+          <p className="font-body text-ink/60 text-xs sm:text-sm italic max-w-sm sm:max-w-md mx-auto leading-relaxed px-2">{families.brideSide.relation}</p>
         </div>
 
         <div className="border-gold/30 bg-paper/60 mt-10 rounded-3xl border px-6 py-6 shadow-[0_10px_30px_-20px_var(--shadow-gold)] backdrop-blur-sm">
