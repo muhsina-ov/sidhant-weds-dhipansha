@@ -23,13 +23,20 @@ export const Route = createFileRoute("/")({
     meta: [
       { title },
       { name: "description", content: description },
+      { property: "og:site_name", content: "Siddhant & Dipansha Wedding" },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://sidhant-weds-dhipansha.invitingyou.top/" },
+      { property: "og:image", content: "https://sidhant-weds-dhipansha.invitingyou.top/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: "https://sidhant-weds-dhipansha.invitingyou.top/og-image.jpg" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://sidhant-weds-dhipansha.invitingyou.top/" }],
     scripts: [
       {
         type: "application/ld+json",
