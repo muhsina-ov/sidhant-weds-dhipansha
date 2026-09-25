@@ -9,7 +9,7 @@ export function Venue() {
   return (
     <section id="venue" className="relative px-5 py-16">
       <Reveal className="mx-auto mb-8 max-w-md text-center">
-        <p className="font-kicker text-gold text-[0.68rem] tracking-[0.42em] uppercase">Where</p>
+        <p className="font-kicker text-gold text-[0.68rem] tracking-[0.42em] uppercase">Wedding Venue</p>
         <h2 className="font-display text-maroon mt-3 text-3xl sm:text-4xl">{venue.name}</h2>
         <p className="font-body text-ink/70 mt-2 text-sm leading-6">{venue.address}</p>
       </Reveal>

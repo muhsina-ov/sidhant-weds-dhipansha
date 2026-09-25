@@ -6,7 +6,7 @@
 const storyOne = "/images/story-tea.jpg";
 const storyTwo = "/images/story-family.jpg";
 const storyThree = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-3.jpg";
-const galleryOne = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-1.jpg";
+const galleryOne = "/images/gallery-mehendi.jpg";
 const galleryTwo = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-2.jpg";
 const galleryThree = "/images/gallery-mandap-night.jpg";
 const galleryFour = "/images/gallery-vintage-car.jpg";
@@ -139,7 +139,7 @@ export const invitation = {
   },
 
   gallery: [
-    { src: galleryOne, alt: "Celebrations and festive moments" },
+    { src: galleryOne, alt: "Mehendi celebrations with DG & SS initials and festive traditions" },
     { src: galleryTwo, alt: "Joyful ceremonies and laughter" },
     { src: galleryThree, alt: "Auspicious mandap and sacred blessings" },
     { src: galleryFour, alt: "Together forever" },

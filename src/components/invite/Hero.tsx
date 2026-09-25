@@ -54,9 +54,11 @@ export function Hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="font-kicker text-gold text-[0.6rem] tracking-[0.2em] sm:text-[0.65rem] sm:tracking-[0.35em] uppercase"
+            className="font-kicker text-gold mx-auto max-w-xs text-[0.62rem] leading-relaxed tracking-[0.2em] uppercase sm:max-w-none sm:text-[0.65rem] sm:tracking-[0.35em]"
           >
-            ॥ श्री गणेशाय नमः ॥ · Wedding Invitation
+            <span className="block sm:inline">॥ श्री गणेशाय नमः ॥</span>
+            <span className="hidden sm:inline"> · </span>
+            <span className="block sm:inline">Wedding Invitation</span>
           </motion.p>
 
           <motion.h1
