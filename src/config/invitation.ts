@@ -8,8 +8,8 @@ const storyTwo = "/images/story-family.jpg";
 const storyThree = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-3.jpg";
 const galleryOne = "/images/gallery-mehendi.jpg";
 const galleryTwo = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-2.jpg";
-const galleryThree = "/images/gallery-mandap-night.jpg";
-const galleryFour = "/images/gallery-vintage-car.jpg";
+const galleryThree = "/images/gallery-vintage-car.jpg";
+const galleryFour = "/images/gallery-mandap-night.jpg";
 
 export type InviteEvent = {
   key: string;
@@ -72,7 +72,7 @@ export const invitation = {
   story: [
     {
       year: "2023",
-      title: "Talking Over Tea",
+      title: "Where It All Began",
       text: "Talking over tea one fine day and beginning a beautiful journey together.",
       image: storyOne,
     },
@@ -97,7 +97,7 @@ export const invitation = {
       startsAt: "2026-10-31T19:00:00+05:30",
       durationMinutes: 180,
       venue: "GC Grand",
-      address: "Vaibhav Khand, Indirapuram, Ghaziabad",
+      address: "Basement Hall, Welcome Lounge, Vaibhav Khand, Indirapuram, Ghaziabad",
       mapUrl: "https://share.google/kRG2iz4IcPbuPDcG9",
       dressCode: "Traditional / Ethnic",
       dressCodeColor: "#C9A84C",
@@ -141,8 +141,8 @@ export const invitation = {
   gallery: [
     { src: galleryOne, alt: "Mehendi celebrations with DG & SS initials and festive traditions" },
     { src: galleryTwo, alt: "Joyful ceremonies and laughter" },
-    { src: galleryThree, alt: "Auspicious mandap and sacred blessings" },
-    { src: galleryFour, alt: "Together forever" },
+    { src: galleryThree, alt: "Baraat vintage car celebration" },
+    { src: galleryFour, alt: "Auspicious mandap night and sacred blessings" },
   ],
 
   closing: {

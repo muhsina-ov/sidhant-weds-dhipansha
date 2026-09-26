@@ -65,10 +65,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            className="font-script text-maroon mt-4 text-[2.15rem] leading-[1.1] sm:text-5xl md:text-6xl"
+            className="font-script text-maroon mt-4 text-[1.75rem] leading-[1.1] whitespace-nowrap min-[360px]:text-[1.95rem] min-[400px]:text-[2.15rem] sm:text-5xl md:text-6xl"
           >
             {invitation.couple.groom}
-            <span className="font-display text-gold mx-2 text-2xl sm:text-4xl">&</span>
+            <span className="font-display text-gold mx-1.5 text-xl min-[360px]:mx-2 min-[360px]:text-2xl sm:text-4xl">&</span>
             {invitation.couple.bride}
           </motion.h1>
 
