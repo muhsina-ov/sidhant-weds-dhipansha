@@ -59,6 +59,18 @@ export function Events() {
               ) : null}
 
               <div className="mt-5 flex flex-wrap items-center gap-3 pt-2">
+                {event.mapUrl ? (
+                  <a
+                    href={event.mapUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-gold inline-flex items-center gap-1.5 px-4 py-2 text-xs"
+                  >
+                    <ExternalLink className="size-3.5" aria-hidden />
+                    View Venue Map
+                  </a>
+                ) : null}
+
                 <a
                   href={googleCalendarUrl({
                     title: `${event.name} — Siddhant & Dipansha Wedding`,
@@ -69,23 +81,11 @@ export function Events() {
                   })}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn-gold inline-flex items-center gap-1.5 px-4 py-2 text-xs"
+                  className="btn-outline inline-flex items-center gap-1.5 px-4 py-2 text-xs"
                 >
                   <CalendarPlus className="size-3.5" aria-hidden />
                   Add to Calendar
                 </a>
-
-                {event.mapUrl ? (
-                  <a
-                    href={event.mapUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-outline inline-flex items-center gap-1.5 px-4 py-2 text-xs"
-                  >
-                    <ExternalLink className="size-3.5" aria-hidden />
-                    View Venue Map
-                  </a>
-                ) : null}
               </div>
             </article>
           </Reveal>

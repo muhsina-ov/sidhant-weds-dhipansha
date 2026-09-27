@@ -4,11 +4,11 @@
  */
 
 const storyOne = "/images/story-tea.jpg";
-const storyTwo = "/images/story-family.jpg";
+const storyTwo = "/images/sdi1.png";
 const storyThree = "https://media.invitestory.in/rajwada-royale-alt/src/assets/story-3.jpg";
 const galleryOne = "/images/gallery-mehendi.jpg";
-const galleryTwo = "https://media.invitestory.in/rajwada-royale-alt/src/assets/gallery-2.jpg";
-const galleryThree = "/images/gallery-vintage-car.jpg";
+const galleryTwo = "/images/sdi2.png";
+const galleryThree = "/images/sdi3.png";
 const galleryFour = "/images/gallery-mandap-night.jpg";
 
 export type InviteEvent = {
@@ -109,7 +109,7 @@ export const invitation = {
       startsAt: "2026-11-14T19:00:00+05:30",
       durationMinutes: 240,
       venue: "Rudrakshaa Banquet",
-      address: "1st Floor, Sector 4, Vaishali, Ghaziabad",
+      address: "1st Floor, Sector 4, Vaishali, Ghaziabad. Next to Vaishali Metro Station",
       mapUrl: "https://maps.app.goo.gl/dCJ4XttZsFLLdpaZ9?g_st=ic",
       dressCode: "Festive Glamour",
       dressCodeColor: "#93202E",
