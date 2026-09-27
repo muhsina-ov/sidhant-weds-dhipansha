@@ -146,7 +146,7 @@ export const invitation = {
   ],
 
   closing: {
-    blessing: "Your gracious presence and warm blessings are our cherished gifts as we begin our new journey.",
+    blessing: "Your gracious presence and warm blessings are our cherished gifts as we begin our new journey 🧿",
     signOff: "With warm regards & blessings,",
   },
 
