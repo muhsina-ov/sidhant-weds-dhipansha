@@ -98,7 +98,7 @@ export const invitation = {
       durationMinutes: 180,
       venue: "GC Grand",
       address: "Basement Hall, Welcome Lounge, Vaibhav Khand, Indirapuram, Ghaziabad",
-      mapUrl: "https://share.google/kRG2iz4IcPbuPDcG9",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=GC+Grand,+Vaibhav+Khand,+Indirapuram,+Ghaziabad",
       dressCode: "Traditional / Ethnic",
       dressCodeColor: "#C9A84C",
       note: "An evening of divine music, devotion and blessings.",
@@ -110,7 +110,7 @@ export const invitation = {
       durationMinutes: 240,
       venue: "Rudrakshaa Banquet",
       address: "1st Floor, Sector 4, Vaishali, Ghaziabad. Next to Vaishali Metro Station",
-      mapUrl: "https://maps.app.goo.gl/dCJ4XttZsFLLdpaZ9?g_st=ic",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=Rudrakshaa+Banquet,+Sector+4,+Vaishali,+Ghaziabad",
       dressCode: "Festive Glamour",
       dressCodeColor: "#93202E",
       note: "Join us for an auspicious evening of celebrations and shagun.",
@@ -122,7 +122,7 @@ export const invitation = {
       durationMinutes: 300,
       venue: "The Rajwada Palace – The Legend",
       address: "Maharaja Hall, GT Karnal Road, Ashok Vihar, Delhi",
-      mapUrl: "https://maps.app.goo.gl/MW16bXXxEpGfJ334A?g_st=ic",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=The+Rajwada+Palace+The+Legend,+GT+Karnal+Road,+Ashok+Vihar,+Delhi",
       dressCode: "Royal Traditional",
       dressCodeColor: "#C9A84C",
       note: "Baraat assembly followed by Varmala, Dinner & Phere.",
@@ -132,7 +132,7 @@ export const invitation = {
   venue: {
     name: "The Rajwada Palace – The Legend (Maharaja Hall)",
     address: "GT Karnal Road, Ashok Vihar, Delhi, 110033",
-    mapUrl: "https://maps.app.goo.gl/MW16bXXxEpGfJ334A?g_st=ic",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=The+Rajwada+Palace+The+Legend,+GT+Karnal+Road,+Ashok+Vihar,+Delhi",
     lat: 28.696,
     lng: 77.182,
     directionsNote: "Valet parking available at the Maharaja Hall entrance.",
@@ -151,8 +151,7 @@ export const invitation = {
   },
 
   contacts: [
-    { name: "Sharma Family", phone: "+919811122334" },
-    { name: "Grover Family", phone: "+919877788990" },
+    { name: "Vijay Sharma", phone: "+91 9810280174" },
   ],
 } as const;
 

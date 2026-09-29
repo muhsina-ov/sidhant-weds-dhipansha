@@ -55,10 +55,13 @@ export function Venue() {
           <ul className="mt-3 space-y-2">
             {contacts.map((c) => (
               <li key={c.phone} className="flex items-center justify-between gap-3">
-                <span className="font-body text-ink/75 text-sm">{c.name}</span>
+                <div>
+                  <span className="font-body text-ink/80 text-sm font-medium block">{c.name}</span>
+                  <span className="font-body text-ink/60 text-xs">{c.phone}</span>
+                </div>
                 <a
-                  href={`tel:${c.phone}`}
-                  className="text-maroon font-body inline-flex items-center gap-1.5 text-sm"
+                  href={`tel:${c.phone.replace(/\s+/g, "")}`}
+                  className="text-maroon hover:text-maroon/80 font-body inline-flex items-center gap-1.5 text-sm font-medium"
                 >
                   <Phone className="size-3.5" aria-hidden />
                   Call
